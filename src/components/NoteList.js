@@ -8,7 +8,7 @@ export default function NoteList({ notes }) {
         <NoteItem
           key={note.id}
           title={note.title}
-          date={note.createdAt}
+          createdAt={note.createdAt}
           body={note.body}
         />
       ))}
